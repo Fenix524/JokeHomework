@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <link rel="stylesheet" href="./css/cardsPage.css" />
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <section class="joke">
+    <div class="joke-container container">
+      <button class="joke-arrow joke-arrow-left js-previous-joke">
+      </button>
+      <div class="joke-card">
+        <div class="joke-card-info">
+          <div class="joke-card-info-icon-box joke-icon-box">
+            <img src="./img/main/jokes/Group 7.jpg" alt="Joke icon" class="joke-card-info-icon" />
+          </div>
+
+          <p class="joke-card-info-title jake-title js-joke-title">
+            Анегдот про польського єжика
+          </p>
+
+          <button class="joke-card-info-like-btn heart-btn" type="button">
+            <svg class="joke-card-info-like-icon" height="30" width="37">
+              <use href="./img/icons.svg#heart"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="joke-card-text">
+         <p class="js-joke-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aspernatur facilis dignissimos architecto. Exercitationem, soluta delectus placeat laborum nostrum ipsum! Error, maiores aspernatur obcaecati possimus esse ullam tenetur tempore! Optio?
+         </p>
+        </div>
+      </div>
+      <button class="joke-arrow joke-arrow-right js-next-joke">
+      </button>
+    </div>
+  </section>
+  <script src="./js/switch-joke.js"></script>
+</body>
+</html>

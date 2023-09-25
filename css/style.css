@@ -1,0 +1,65 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+ul, li, ol{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.section {
+}
+
+
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘   Like btn   ⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.heart-btn{
+  background-color: transparent;
+  border: transparent;
+}
+.heart-btn svg{
+  transition: all linear 0.1s;
+}
+.heart-btn svg:hover{
+  background-color: transparent;
+}
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘   joke icon   ⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.joke-icon-box{
+  margin-right: 21px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #1d0d21;
+  width: 81px;
+  height: 51px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.joke-icon-box img{
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  
+  
+}
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘   joke title   ⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.jake-title{
+  flex-grow: 1;
+  font-size: 20px;
+  font-weight: 400;
+}

@@ -1,0 +1,80 @@
+.joke {
+  height: 100vh;
+  background: linear-gradient(108deg, #fff -3.81%, #be99c9 108.86%);
+}
+.joke-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+}
+.joke-arrow {
+  width: 39px;
+  height: 59px;
+  flex-shrink: 0;
+  border-radius: 34px;
+  background: linear-gradient(162deg, #f6f5f6 -121.56%, #9660ae 96.56%);
+  border-color: #E1D0E6;
+  box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.25);
+}
+.joke-arrow-left {
+}
+.jokes-list-item-like-icon {
+}
+.joke-card {
+  position: relative;
+  margin: 0 50px;
+  flex-grow: 1;
+  min-height: 550px;
+
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 9px 4px 37px 0px rgba(0, 0, 0, 0.25);
+  padding: 33px 33px;
+}
+.joke-card::before {
+  content: "";
+  position: absolute;
+  z-index: -2;
+
+  border-radius: 16px;
+  background: #c585c7;
+  box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.25);
+
+  height: 100%;
+  width: 100%;
+}
+.joke-card-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.joke-card-info-icon-box {
+}
+.joke-icon-box {
+  width: 102px;
+  height: 74px;
+}
+.joke-card-info-icon {
+}
+.joke-card-info-title {
+  font-size: 30px;
+}
+.jake-title {
+}
+.joke-card-info-like-btn {
+}
+.heart-btn {
+}
+.joke-card-info-like-icon {
+  width: 49px;
+  height: 49px;
+}
+.joke-card-text {
+  font-size: 22px;
+  max-height: 400px;
+  overflow: auto;
+}
+.joke-arrow-right {
+}
